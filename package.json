@@ -5,7 +5,8 @@
     "lerna": "^3.16.4"
   },
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "lint": "^0.7.0"
   },
   "scripts": {
     "test-ci-partial": "yarn jest --color -i --config jest.config.ci.js",
