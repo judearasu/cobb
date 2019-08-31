@@ -6,5 +6,9 @@
   },
   "dependencies": {
     "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test-ci-partial": "yarn jest --color -i --config jest.config.ci.js",
+    "test": "yarn lint && yarn jest"
   }
 }
