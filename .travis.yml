@@ -10,12 +10,17 @@ branches:
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH="$HOME/.yarn/bin:$PATH"
-
+install:
+  - yarn install
 cache:
   yarn: true
   directories:
     - '.eslintcache'
     - 'node_modules'
 
+os:
+  - linux
+  - osx
+  - windows10
 script:
   - yarn run test
