@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-'use strict';
+'use strict'
 
 module.exports = {
   collectCoverageFrom: [
@@ -18,7 +18,7 @@ module.exports = {
     '!**/__tests__/**',
     '!**/build/**',
     '!**/vendor/**',
-    '!e2e/**',
+    '!e2e/**'
   ],
   modulePathIgnorePatterns: [
     'examples/.*',
@@ -26,13 +26,14 @@ module.exports = {
     'packages/.*/build-es5',
     'packages/jest-runtime/src/__tests__/test_root.*',
     'website/.*',
-    'e2e/runtime-internal-module-registry/__mocks__',
+    'e2e/runtime-internal-module-registry/__mocks__'
   ],
   projects: ['<rootDir>', '<rootDir>/examples/*/'],
   setupFilesAfterEnv: ['<rootDir>/testSetupFile.js'],
   snapshotSerializers: [
     '<rootDir>/packages/pretty-format/build/plugins/ConvertAnsi.js',
-    require.resolve('jest-snapshot-serializer-raw'),
+    // eslint-disable-next-line node/no-missing-require
+    require.resolve('jest-snapshot-serializer-raw')
   ],
   testEnvironment: './packages/jest-environment-node',
   testPathIgnorePatterns: [
@@ -60,13 +61,13 @@ module.exports = {
     '/packages/jest-validate/src/__tests__/fixtures/',
     '/packages/jest-worker/src/__performance_tests__',
     '/packages/pretty-format/perf/test.js',
-    '/e2e/__tests__/iterator-to-null-test.ts',
+    '/e2e/__tests__/iterator-to-null-test.ts'
   ],
   transform: {
-    '^.+\\.[jt]sx?$': '<rootDir>/packages/babel-jest',
+    '^.+\\.[jt]sx?$': '<rootDir>/packages/babel-jest'
   },
   watchPlugins: [
     'jest-watch-typeahead/filename',
-    'jest-watch-typeahead/testname',
-  ],
-};
+    'jest-watch-typeahead/testname'
+  ]
+}
