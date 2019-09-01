@@ -16,7 +16,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "lint": "eslint . --cache --report-unused-disable-directives --ext js,jsx,ts,tsx",
+    "lint": "eslint . --cache --report-unused-disable-directives --ext js",
     "test-ci-partial": "yarn jest --color -i --config scripts/jest.config.ci.js",
     "test": "yarn lint && yarn jest"
   }

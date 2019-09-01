@@ -1,0 +1,16 @@
+{
+  "name": "array-isempty",
+  "version": "1.0.0",
+  "description": "returns array empty or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "isEmpty",
+    "length"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}
