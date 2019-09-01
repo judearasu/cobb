@@ -1,2 +1,3 @@
-# cobb
-Modular JavaScript Utilities 
+# [Cobb]() &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/judearasu/cobb/blob/master/LICENSE) [![CircleCI](https://circleci.com/gh/judearasu/cobb/tree/develop.svg?style=svg)](https://circleci.com/gh/judearasu/cobb/tree/develop) [![Build Status](https://travis-ci.org/judearasu/cobb.svg?branch=develop)](https://travis-ci.org/judearasu/cobb)
+
+Cobb - Modular JavaScript Utilities 
