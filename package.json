@@ -1,5 +1,6 @@
 {
-  "name": "root",
+  "name": "cobb",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "babel-eslint": "^10.0.3",
