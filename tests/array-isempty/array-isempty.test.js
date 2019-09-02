@@ -5,9 +5,15 @@ describe('isEmpty', () => {
     expect(isEmpty('hello')).toEqual(false)
   })
 
-  it('should work on arrays', function () {
+  test('should work on arrays', () => {
     expect(isEmpty([])).toEqual(true)
     expect(isEmpty([1])).toEqual(false)
     expect(isEmpty([1, 2])).toEqual(false)
+  })
+
+  test('should work on objects', () => {
+    expect(isEmpty({})).toEqual(true)
+    expect(isEmpty({ a: 1 })).toEqual(false)
+    expect(isEmpty({ a: 1, b: 2 })).toEqual(false)
   })
 })
