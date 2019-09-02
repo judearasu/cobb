@@ -16,4 +16,14 @@ describe('isEmpty', () => {
     expect(isEmpty({ a: 1 })).toEqual(false)
     expect(isEmpty({ a: 1, b: 2 })).toEqual(false)
   })
+
+  test('should validate for value other than collection', () => {
+    expect(isEmpty(null)).toEqual(true)
+    expect(isEmpty(undefined)).toEqual(true)
+    expect(isEmpty(0)).toEqual(true)
+    expect(isEmpty(100)).toEqual(true)
+    expect(isEmpty(-3)).toEqual(true)
+    expect(isEmpty(Infinity)).toEqual(true)
+    expect(isEmpty('')).toEqual(true)
+  })
 })
