@@ -28,4 +28,18 @@ describe('compact', () => {
     expect(compact(arr2).includes(null)).toBe(false)
     expect(compact(arr2)).toEqual([])
   })
+
+  test('should remove all falsey types', () => {
+    const arr = [1, null, 2, undefined, null, NaN, 3, 4, false, 5]
+    expect(compact(arr).includes(false)).toBe(false)
+    expect(compact(arr).includes(NaN)).toBe(false)
+    expect(compact(arr).length).toBe(5)
+
+    const arr2 = [null, undefined, null, NaN, false]
+    expect(compact(arr2)).toEqual([])
+
+    const arr3 = [null, undefined, null, NaN, false, true]
+    expect(compact(arr3).length).toBe(1)
+    expect(compact(arr3)).toEqual([true])
+  })
 })
