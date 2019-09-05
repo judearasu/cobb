@@ -1,0 +1,15 @@
+{
+  "name": "array-compact",
+  "version": "1.0.0",
+  "description": "returns array without empty or undefined values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "compact"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}

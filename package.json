@@ -1,7 +1,6 @@
 {
-  "name": "cobb",
+  "name": "cobbjs",
   "version": "1.0.0",
-  "private": true,
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.3.0",
