@@ -1,5 +1,5 @@
 {
-  "name": "array-isempty",
+  "name": "cobb-isempty",
   "version": "1.0.0",
   "description": "returns array empty or not",
   "main": "index.js",

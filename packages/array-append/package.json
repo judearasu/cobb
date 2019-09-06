@@ -1,5 +1,5 @@
 {
-  "name": "array-append",
+  "name": "cobb-append",
   "version": "1.0.0",
   "description": "returns array with appended value",
   "main": "index.js",
