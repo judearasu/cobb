@@ -1,0 +1,15 @@
+{
+  "name": "array-append",
+  "version": "1.0.0",
+  "description": "returns array with appended value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "append"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}
