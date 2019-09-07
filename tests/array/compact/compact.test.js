@@ -1,4 +1,4 @@
-const compact = require('../../packages/array-compact')
+const compact = require('../../../packages/array/compact')
 
 describe('compact', () => {
   test('should remove null values', () => {

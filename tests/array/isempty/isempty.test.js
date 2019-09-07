@@ -1,4 +1,4 @@
-const isEmpty = require('../../packages/array-isempty')
+const isEmpty = require('../../../packages/array/isempty')
 describe('isEmpty', () => {
   test('should work on string', () => {
     expect(isEmpty('')).toEqual(true)

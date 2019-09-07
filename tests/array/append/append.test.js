@@ -1,4 +1,4 @@
-const append = require('../../packages/array-append')
+const append = require('../../../packages/array/append')
 
 describe('append', () => {
   test('should append the second array to the end of first array', () => {
