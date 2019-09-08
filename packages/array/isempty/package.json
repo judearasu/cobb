@@ -1,6 +1,6 @@
 {
   "name": "cobb-isempty",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "returns array empty or not",
   "main": "index.js",
   "repository": "https://github.com/judearasu/cobb",

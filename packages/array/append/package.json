@@ -1,6 +1,6 @@
 {
   "name": "cobb-append",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "returns array with appended value",
   "main": "index.js",
   "repository": "https://github.com/judearasu/cobb",
