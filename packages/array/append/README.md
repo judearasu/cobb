@@ -1,6 +1,6 @@
-## cobb-compact
+## cobb-append
 
-Checks if Array/Object/String is empty.
+Appends item to the array.
 
 ```js
 
