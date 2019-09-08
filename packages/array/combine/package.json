@@ -1,0 +1,16 @@
+{
+  "name": "cobb-combine",
+  "version": "1.0.0",
+  "description": "combines array and remove duplicates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "combine",
+    "array",
+    "includes"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}
