@@ -1,6 +1,6 @@
 {
   "name": "cobb-combine",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "combines array and remove duplicates",
   "main": "index.js",
   "scripts": {

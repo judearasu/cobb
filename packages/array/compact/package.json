@@ -1,6 +1,6 @@
 {
   "name": "cobb-compact",
-  "version": "1.1.1",
+  "version": "1.2.2",
   "description": "returns array without empty or undefined values",
   "main": "index.js",
   "scripts": {
