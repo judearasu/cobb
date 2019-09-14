@@ -1,0 +1,19 @@
+{
+  "name": "cobb-flatten",
+  "version": "1.0.0",
+  "description": "Returns a new a list by flattening multidimensional array into single array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/judearasu/cobb"
+  },
+  "keywords": [
+    "array",
+    "flatten"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}
