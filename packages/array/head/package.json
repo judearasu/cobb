@@ -1,0 +1,20 @@
+{
+  "name": "cobb-head",
+  "version": "1.0.0",
+  "description": "returns the first set of elements from array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/judearasu/cobb"
+  },
+  "keywords": [
+    "array",
+    "head",
+    "first"
+  ],
+  "author": "Thillai Narayanan",
+  "license": "MIT"
+}
