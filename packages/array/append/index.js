@@ -1,6 +1,6 @@
 module.exports = append
 
-function append (arr1, arr2) {
+function append(arr1, arr2) {
   arr1 = arr1 || []
   arr2 = arr2 || []
   const result = []
